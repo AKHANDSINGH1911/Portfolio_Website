@@ -82,7 +82,7 @@ If you'd like to collaborate, provide feedback, or just connect:
 
 📧 Email: aryandevps095@gmail.com
 
-💼 LinkedIn: Aryan Shukla
+💼 LinkedIn: https://www.linkedin.com/in/aryan-shukla-176662228/
 
 💻 GitHub: ARYAN-095
 
