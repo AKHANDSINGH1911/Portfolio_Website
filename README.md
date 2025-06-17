@@ -1,10 +1,88 @@
-# React + Vite
+# 🌟 Aryan Shukla — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This site showcases my work, skills, and passion for building elegant, scalable, and user-friendly web applications.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo  
+👉 [View Portfolio](https://your-portfolio-link.com)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Portfolio_Website
-# Portfolio_Website
+
+#  Screenshots
+   ![Logo](./public/images/Screenshot.png)
+
+---
+
+## 📌 Features
+
+- ⚡ **Fast and Responsive Design** — Optimized for all devices (mobile, tablet, desktop)  
+- 🎨 **Modern UI** — Built with Tailwind CSS for clean, stylish visuals  
+- 🖥️ **Dark/Light Mode Ready** (if applicable)  
+- 🌱 **Accessible and SEO-Friendly**  
+- 🛠️ **Built with React + Vite + Tailwind CSS**  
+- 💬 **Smooth animations** with Framer Motion  
+- 🧩 **Reusable and modular components**
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Description                       |
+|------------|------------------------------------|
+| ⚛️ React   | Front-end framework                |
+| ⚡ Vite    | Blazing fast build tool            |
+| 🌬 Tailwind CSS | Utility-first CSS framework |
+| 🎞 Framer Motion | Animations                  |
+| 🔗 Deployed on | (Vercel / Netlify / GitHub Pages) |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/ # Reusable React components
+├── pages/ # Page components (if applicable)
+├── assets/ # Images, icons
+├── styles/ # Custom CSS (if any)
+├── App.jsx # Main app component
+└── main.jsx # Entry point
+```
+
+
+---
+
+## 📝 How to Run Locally
+
+```
+# Clone the repository
+git clone https://github.com/ARYAN-095/portfolio-website.git
+
+# Go into the directory
+cd portfolio-website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+```
+
+# 🙌 Acknowledgements / Inspiration
+
+Tailwind CSS
+
+Framer Motion
+
+Vite
+
+Inspired by modern developer portfolio designs across the web
+
+# ✉️ Contact
+If you'd like to collaborate, provide feedback, or just connect:
+
+📧 Email: aryandevps095@gmail.com
+
+💼 LinkedIn: Aryan Shukla
+
+💻 GitHub: ARYAN-095
+

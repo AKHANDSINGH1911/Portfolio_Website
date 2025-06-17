@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+@apply font-body bg-darkBrown;
+}
+
+
+.skill-card {
+  transition: all 0.3s ease;
+  backface-visibility: hidden;
+}
+
+.glass-container {
+  background: rgba(15, 23, 42, 0.7); /* Adjust for dark/light mode */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@keyframes shine {
+  to {
+    transform: translateX(100%);
+  }
+}
