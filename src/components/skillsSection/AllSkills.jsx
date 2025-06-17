@@ -34,11 +34,10 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const categories = [
   {
-    title: "Languages and Frameworks",
+    title: "Development Tools and Frameworks",
     skills: [
      
-      { name: "JavaScript", icon: IoLogoJavascript },
-      { name: "TypeScript", icon: SiTypescript },
+     
       { name: "ReactJS", icon: FaReact },
       { name: "Redux", icon: SiRedux },
       { name: "NextJS", icon: SiNextdotjs },
@@ -53,6 +52,8 @@ const categories = [
     title: "Languages",
     skills: [
       { name: "Java", icon: FaJava },
+       { name: "JavaScript", icon: IoLogoJavascript },
+      { name: "TypeScript", icon: SiTypescript },
       { name: "Python", icon: SiPython },
       { name: "C++", icon: SiCplusplus },
     ],
