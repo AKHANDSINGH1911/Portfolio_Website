@@ -80,7 +80,7 @@ Inspired by modern developer portfolio designs across the web
 # ✉️ Contact
 If you'd like to collaborate, provide feedback, or just connect:
 
-📧 Email: akhandsingh706095@gmail.com
+📧 Email: akhandsingh706@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/akhand-singh-a81a86259/
 
