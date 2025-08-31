@@ -1,4 +1,4 @@
-# 🌟 Aryan Shukla — Portfolio Website
+# 🌟 Akhand Singh — Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my work, skills, and passion for building elegant, scalable, and user-friendly web applications.
 
@@ -54,7 +54,7 @@ src/
 
 ```
 # Clone the repository
-git clone https://github.com/ARYAN-095/portfolio-website.git
+git clone https://github.com/AKHANDSINGH1911/portfolio-website.git
 
 # Go into the directory
 cd portfolio-website
@@ -80,9 +80,9 @@ Inspired by modern developer portfolio designs across the web
 # ✉️ Contact
 If you'd like to collaborate, provide feedback, or just connect:
 
-📧 Email: aryandevps095@gmail.com
+📧 Email: akhandsingh706095@gmail.com
 
-💼 LinkedIn: https://www.linkedin.com/in/aryan-shukla-176662228/
+💼 LinkedIn: https://www.linkedin.com/in/akhand-singh-a81a86259/
 
-💻 GitHub: ARYAN-095
+💻 GitHub: AKHANDSINGH1911
 
