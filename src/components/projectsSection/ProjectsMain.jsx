@@ -5,121 +5,67 @@ import ProjectCard from "./ProjectCard";
 const ProjectsMain = () => {
   const projects = [
 
-    {
-      id: 1,
-      name: "Shakti Shield – Safety Web App",
-      year: "February, 2025 - May, 2025",
-      description: "Emergency response system with real-time location tracking",
-      technologies: ["React", "Node.js", "MongoDB", "JWT", "Cloudinary", "Leaflet.js"],
-      achievements: [
-        "One-tap SMS notifications with live location",
-        "Real-time map tracking with Leaflet.js",
-        "JWT authentication with Google OAuth"
-      ],
-      links: {
-        github: "github.com/ARYAN-095/Shakti-Shield",
-        demo: "shakti-shield.vercel.app"
-      },
-      gradientColors: ["#f43f5e", "#ef4444", "#dc2626"], // Rose to Red to Crimson
-      accentColor: "from-rose-500 to-red-600"
-    },
-
-    {
-      id: 2,
-      name: "DevMind – AI Developer Assistant",
-      year: "June, 2024* ",
-      description: "AI-powered platform for developer collaboration and code understanding",
-      technologies: ["Next.js", "Shadcn UI", "Prisma", "PostgreSQL", "LangChain", "Firebase", "Stripe"],
-      achievements: [
-        "Built production-ready full-stack platform",
-        "RAG system with 100% code-contextual accuracy",
-        "Commit summarization pipeline with Google Gemini LLM"
-      ],
-      links: {
-        github: "https://github.com/ARYAN-095/DevMind",
-        demo: "Comming Soon"
-      },
-      gradientColors: ["#06b6d4", "#3b82f6", "#6366f1"], // Cyan to Blue to Indigo
-      accentColor: "from-cyan-500 to-blue-600"
-    },
-
-     {
-      id: 3,
-      name: "FarmBridge – Marketplace Platform",
-      year: "October,2024 - December,2024",
-      description: "Direct farm-to-consumer e-commerce platform",
-      technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JWT"],
-      achievements: [
-        "Hackathon winning solution",
-        "Full-stack marketplace implementation",
-        "Secure authentication with JWT"
-      ],
-      links: {
-        github: "https://github.com/ARYAN-095/FarmBridge",
-        demo: "#"
-      },
-      gradientColors: ["#f59e0b", "#f97316", "#ea580c"], // Amber to Orange to Red
-      accentColor: "from-amber-500 to-orange-600"
-    },
-
-     {
-      id: 4,
-      name: "WildGuard AI – Anti-poaching System",
-      year: "2023",
-      description: "AI-powered audio detection system for wildlife protection",
-      technologies: ["React", "Tailwind CSS", "PyTorch", "FastAPI", "FFmpeg", "Librosa"],
-      achievements: [
-        "90%+ train accuracy on 27 sound classes",
-        "Audio classification pipeline with PyTorch",
-        "React frontend with real-time detection"
-      ],
-      links: {
-        github: "https://github.com/ARYAN-095/WildGuard-AI",
-        demo: "#"
-      },
-      gradientColors: ["#10b981", "#059669", "#047857"], // Green to Emerald to Teal
-      accentColor: "from-green-500 to-emerald-600"
-    },
-
-    {
-      id: 5,
-      name: "MindNexus – Productivity Suite",
-      year: "2024",
-      description: "All-in-one workspace with real-time collaboration features",
-      technologies: ["Next.js", "React", "TanStack Query", "Zustand", "ReactFlow", "TypeScript", "Supabase"],
-      achievements: [
-        "Role-based access control system",
-        "React Flow mind-maps & rich-text tasks",
-        "<200 ms UI updates with TanStack Query"
-      ],
-      links: {
-        github: "https://github.com/ARYAN-095/MindNexus",
-        demo: "#"
-      },
-      gradientColors: ["#8b5cf6", "#d946ef", "#ec4899"], // Purple to Pink to Rose
-      accentColor: "from-purple-500 to-pink-600"
-    },
-   
     
-   
     {
-      id: 6,
-      name: "Website Health Analyzer",
-      year: "",
-      description: "AI-driven platform for comprehensive website analysis",
-      technologies: ["React", "FastAPI", "Transformers", "Computer Vision", "Docker", "Microservices"],
-      achievements: [
-        "Production-grade AI/ML integration",
-        "Containerized cloud-native architecture",
-        "Solves real web security/performance challenges"
-      ],
-      links: {
-        github: "https://github.com/ARYAN-095/GuardianWeb--Website--Health--analyzer-application",
-        demo: "#"
-      },
-      gradientColors: ["#6366f1", "#8b5cf6", "#a855f7"], // Indigo to Violet to Purple
-      accentColor: "from-indigo-500 to-violet-600"
-    }
+  id: 1,
+  name: "SmartSQL – Natural Language SQL Interface",
+  year: "December, 2024",
+  description: "Natural language interface for querying SQL databases without writing SQL",
+  technologies: ["Python", "Streamlit", "PostgreSQL", "FastAPI", "Google Gemini API"],
+  achievements: [
+    "Enabled natural language to SQL conversion via Gemini API",
+    "Built intuitive Streamlit interface for non-technical users",
+    "Integrated FastAPI for secure query routing and visualization",
+    "Delivered real-time, executable SQL query generation"
+  ],
+  links: {
+    github: "https://github.com/AKHANDSINGH1911/Smart-Database-Access",
+    demo: "#"
+  },
+  gradientColors: ["#f59e0b", "#f97316", "#ea580c"], // Amber to Orange to Red
+  accentColor: "from-amber-500 to-orange-600"
+},
+{
+  id: 2,
+  name: "News Aggregator – Real-Time News Platform",
+  year: "November, 2024",
+  description: "Dynamic news aggregator fetching and categorizing articles from 10+ sources with real-time updates",
+  technologies: ["React", "Node.js", "Express", "MongoDB", "News API"],
+  achievements: [
+    "Fetched, categorized, and displayed real-time news from 10+ sources",
+    "Implemented filtering options for personalized news feeds",
+    "Optimized backend with caching & database integration to reduce API call costs",
+    "Planned upgrades: AI-driven summarization & voice-based accessibility"
+  ],
+  links: {
+    github: "https://github.com/AKHANDSINGH1911/NEWSAPP",
+    demo: "#"
+  },
+  gradientColors: ["#06b6d4", "#3b82f6", "#6366f1"], // Cyan to Blue to Indigo
+  accentColor: "from-cyan-500 to-blue-600"
+},
+
+{
+  id: 3,
+  name: "Pipeline Sentinel – CI/CD Failure Analysis Platform",
+  year: "February, 2025 - May, 2025",
+  description: "AI-powered CI/CD failure analysis & prediction platform with distributed backend",
+  technologies: ["Node.js", "Python", "Kafka", "Next.js", "TypeScript", "Docker", "PostgreSQL", "OpenAI API"],
+  achievements: [
+    "Architected distributed backend using Node.js, Python, Kafka & Docker",
+    "Built AI-powered analysis engine using OpenAI/Gemini API for root-cause detection",
+    "Developed predictive model with 75%+ precision for failure risk scoring",
+    "Reduced manual debugging time by 90% with automated insights"
+  ],
+  links: {
+    github: "https://github.com/AKHANDSINGH1911/Pipeline-Sentinel",
+    demo: "#"
+  },
+  gradientColors: ["#f43f5e", "#ef4444", "#dc2626"], // Rose to Red to Crimson
+  accentColor: "from-rose-500 to-red-600"
+},
+   
+   
   ];
 
   return (
@@ -225,7 +171,7 @@ const ProjectsMain = () => {
           transition={{ delay: 0.5 }}
         >
           <motion.a
-            href="#"
+            href="#projects"
             className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-gradient-to-r from-cyan-600 to-blue-700 hover:from-cyan-500 hover:to-blue-600 transition-all shadow-lg hover:shadow-cyan-500/20 relative overflow-hidden group"
             whileHover={{ scale: 1.05 }}
           >

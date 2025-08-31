@@ -1,84 +1,97 @@
 import SingleSkill from "./SingleSkill";
-import { FaJava } from "react-icons/fa"; 
-import { SiCplusplus, SiPython } from "react-icons/si";
-
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaNodeJs,
-  FaDocker,
-  FaAws,
-} from "react-icons/fa";
+import { FaJava, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDocker, FaAws, FaFileExcel } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import {
-  SiTypescript,
-  SiRedux,
-  SiNextdotjs,
-  SiPrisma,
-  SiPostgresql,
-  SiMongodb,
-  
-  
-  
-  SiSocketdotio,
-  SiCloudflare,
-  SiSelenium,
-  SiPostman,
-} from "react-icons/si";
-import { GrHost } from "react-icons/gr"; // fallback for Hono
-import { AiFillSignal } from "react-icons/ai"; // fallback for WebRTC
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
+import {
+  SiCplusplus,
+  SiPython,
+  SiTypescript,
+  SiSpringboot,
+  SiDjango,
+  SiFastapi,
+  SiExpress,
+  SiAngular,      // ✅ kept only once
+  SiFlutter,
+  SiPrisma,
+  SiPostgresql,
+  SiMongodb,
+  SiMysql,
+  SiKubernetes,
+  SiGithubactions,
+  SiPostman,
+  SiLinux,
+  SiGit,
+} from "react-icons/si";
+
 const categories = [
-  {
-    title: "Development Tools and Frameworks",
-    skills: [
-     
-     
-      { name: "ReactJS", icon: FaReact },
-      { name: "Redux", icon: SiRedux },
-      { name: "NextJS", icon: SiNextdotjs },
-      { name: "TailwindCSS", icon: RiTailwindCssFill },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Hono", icon: GrHost },
-      { name: "Socket.io", icon: SiSocketdotio },
-      { name: "WebRTC", icon: AiFillSignal },
-    ],
-  },
   {
     title: "Languages",
     skills: [
       { name: "Java", icon: FaJava },
-       { name: "JavaScript", icon: IoLogoJavascript },
-      { name: "TypeScript", icon: SiTypescript },
       { name: "Python", icon: SiPython },
-      { name: "C++", icon: SiCplusplus },
+      { name: "C/C++", icon: SiCplusplus },
+      { name: "JavaScript", icon: IoLogoJavascript },
+      { name: "TypeScript", icon: SiTypescript },
+      { name: "SQL", icon: SiPostgresql },
+      { name: "Shell", icon: SiLinux },
+      { name: "HTML", icon: FaHtml5 },
+      { name: "CSS", icon: FaCss3Alt },
+    ],
+  },
+  {
+    title: "Frontend",
+    skills: [
+      { name: "React.js", icon: FaReact },
+      { name: "Angular", icon: SiAngular },
+      { name: "Flutter", icon: SiFlutter },
+      { name: "TailwindCSS", icon: RiTailwindCssFill },
+    ],
+  },
+  {
+    title: "Backend & Frameworks",
+    skills: [
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "Spring Boot", icon: SiSpringboot },
+      { name: "Express.js", icon: SiExpress },
+      { name: "Django", icon: SiDjango },
+      { name: "FastAPI", icon: SiFastapi },
     ],
   },
   {
     title: "Databases",
     skills: [
-      { name: "Prisma", icon: SiPrisma },
+      { name: "MySQL", icon: SiMysql },
       { name: "PostgreSQL", icon: SiPostgresql },
       { name: "MongoDB", icon: SiMongodb },
+      { name: "Prisma", icon: SiPrisma },
     ],
   },
   {
-    title: "DevOps & Tools",
+    title: "Cloud & DevOps",
     skills: [
-      { name: "Docker", icon: FaDocker },
       { name: "AWS", icon: FaAws },
-      { name: "Cloudflare", icon: SiCloudflare },
+      { name: "Docker", icon: FaDocker },
+      { name: "Kubernetes", icon: SiKubernetes },
+      { name: "GitHub Actions (CI/CD)", icon: SiGithubactions },
+      { name: "Linux", icon: SiLinux },
+      { name: "Git", icon: SiGit },
     ],
   },
   {
-    title: "Testing",
+    title: "Tools",
     skills: [
-      { name: "Selenium", icon: SiSelenium },
       { name: "Postman", icon: SiPostman },
+      { name: "Excel", icon: FaFileExcel }, // ✅ proper Excel icon
+    ],
+  },
+  {
+    title: "AI/ML Tools",
+    skills: [
+      { name: "OpenAI / Gemini API", icon: SiPython }, // fallback with Python
+      { name: "ML Libraries (NumPy, Pandas, Sklearn)", icon: SiPython },
     ],
   },
 ];
@@ -93,7 +106,6 @@ const AllSkills = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.2 }}
-          className=""
         >
           <h3 className="text-2xl sm:text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
             {cat.title}

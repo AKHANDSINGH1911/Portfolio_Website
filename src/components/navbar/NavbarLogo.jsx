@@ -3,7 +3,7 @@ const NavbarLogo = () => {
     <div className="group cursor-pointer">
       {/* Full Name - Shown on md+ screens */}
       <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 text-3xl sm:hidden md:block font-bold tracking-tighter transition-all duration-500 hover:tracking-wide">
-        Aryan Shukla
+        Akhand Singh
       </h1>
 
       {/* Initials - Shown on sm screens */}

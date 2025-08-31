@@ -38,7 +38,7 @@ const HeroText = () => {
         >
           {/* First Name */}
           <div className="flex">
-            {"Aryan".split("").map((char, index) => (
+            {"Akhand".split("").map((char, index) => (
               <motion.div
                 key={`first-${index}`}
                 className="relative group"
@@ -92,7 +92,7 @@ const HeroText = () => {
 
           {/* Last Name */}
           <div className="flex mt-2 md:mt-3">
-            {"Shukla".split("").map((char, index) => (
+            {"Singh".split("").map((char, index) => (
               <motion.div
                 key={`last-${index}`}
                 className="relative group"

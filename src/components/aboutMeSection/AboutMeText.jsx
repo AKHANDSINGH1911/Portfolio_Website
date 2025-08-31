@@ -26,7 +26,10 @@ const AboutMeText = () => {
         variants={fadeIn("up", 0.5)}
         className="max-w-2xl text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed"
       >
-        I’m <strong>Aryan Shukla</strong>, a Full‑Stack Developer specializing in Node.js, React, and Cloud‑Native Architectures. I build scalable web applications from the ground up, spanning backend APIs, modern frontends, and DevOps workflows.
+        I’m <strong>Akhand Singh</strong>, an aspiring <strong>Software Engineer</strong> and 
+        <strong> Full-Stack Developer</strong> with hands-on experience in <strong>Java, Python, C/C++</strong>, 
+        scalable web applications, and <strong>cloud-native deployments</strong>. I specialize in building 
+        secure and reliable systems across backend, frontend, databases, and DevOps pipelines.
       </motion.p>
 
       {/* What I Bring */}
@@ -41,31 +44,44 @@ const AboutMeText = () => {
           <li className="flex items-start gap-3">
             <FiChevronRight className="mt-1 text-cyan-500" size={20} />
             <span className="text-gray-700 dark:text-gray-300">
-              <strong>Backend Mastery:</strong> Designed high‑performance APIs with Node.js, Express, TypeScript, PostgreSQL & MongoDB. Implemented OAuth/JWT auth, rate‑limiting, and real‑time WebSocket features.
+              <strong>Backend Development:</strong> Built RESTful and event-driven APIs using 
+              Node.js, Spring Boot, Django & FastAPI. Experienced in authentication (JWT/OAuth), 
+              middleware, and scalable service design.
             </span>
           </li>
           <li className="flex items-start gap-3">
             <FiChevronRight className="mt-1 text-cyan-500" size={20} />
             <span className="text-gray-700 dark:text-gray-300">
-              <strong>Frontend Proficiency:</strong> Crafted responsive UIs using React, Next.js & Tailwind CSS with Recoil/Context API state management and SSR/SSG for blazing performance.
+              <strong>Frontend Engineering:</strong> Developed responsive UIs with React.js, AngularJS, 
+              and Flutter. Skilled in Next.js for SSR/SSG and TailwindCSS for modern styling.
             </span>
           </li>
           <li className="flex items-start gap-3">
             <FiChevronRight className="mt-1 text-cyan-500" size={20} />
             <span className="text-gray-700 dark:text-gray-300">
-              <strong>DevOps & Deployment:</strong> Containerized with Docker, orchestrated via Kubernetes, and deployed on AWS (EC2, S3, EKS). Built CI/CD pipelines and monitoring using Grafana & Prometheus.
+              <strong>Cloud & DevOps:</strong> Deployed apps on AWS (EC2, S3, RDS), containerized 
+              with Docker, orchestrated via Kubernetes, and automated CI/CD pipelines using 
+              GitHub Actions.
             </span>
           </li>
           <li className="flex items-start gap-3">
             <FiChevronRight className="mt-1 text-cyan-500" size={20} />
             <span className="text-gray-700 dark:text-gray-300">
-              <strong>System Design:</strong> Applied sharding, load‑balancing, Redis caching, and Kafka event workflows for projects like a trading platform (Zerodha‑style) and payment gateway (Paytm‑style).
+              <strong>Databases & Data:</strong> Experienced in MySQL, PostgreSQL, MongoDB & Prisma. 
+              Built data-driven applications and optimized queries for performance and scalability.
+            </span>
+          </li>
+          <li className="flex items-start gap-3">
+            <FiChevronRight className="mt-1 text-cyan-500" size={20} />
+            <span className="text-gray-700 dark:text-gray-300">
+              <strong>AI/ML Integrations:</strong> Leveraged OpenAI/Gemini API and Python ML libraries 
+              to power intelligent features like natural-language querying and CI/CD log analysis.
             </span>
           </li>
         </ul>
       </motion.div>
 
-      {/* Call‑to‑Action Button */}
+      {/* Call-to-Action Button */}
       <motion.button
         variants={fadeIn("up", 0.7)}
         className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-teal-500 hover:to-cyan-500 text-white font-medium px-6 py-3 rounded-full transition-all duration-300"

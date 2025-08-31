@@ -75,7 +75,7 @@ const ContactSocial = () => {
         className="relative z-10"
       >
         <SingleContactSocial 
-          link="https://www.linkedin.com/in/aryan-shukla-176662228/" 
+          link="https://www.linkedin.com/in/akhand-singh-a81a86259/" 
           Icon={FaLinkedinIn} 
           className="
             bg-gradient-to-br from-blue-600/20 to-blue-800/30 
@@ -95,7 +95,7 @@ const ContactSocial = () => {
         className="relative z-10"
       >
         <SingleContactSocial 
-          link="https://github.com/ARYAN-095" 
+          link="https://github.com/AKHANDSINGH1911" 
           Icon={FiGithub} 
           className="
             bg-gradient-to-br from-gray-800/20 to-gray-900/30
@@ -115,7 +115,7 @@ const ContactSocial = () => {
         className="relative z-10"
       >
         <SingleContactSocial 
-          link="https://www.instagram.com/aryan_sh095/" 
+          link="https://www.instagram.com/_akhand_singh_706/" 
           Icon={FaInstagram} 
           className="
             bg-gradient-to-br from-purple-600/20 to-pink-600/30

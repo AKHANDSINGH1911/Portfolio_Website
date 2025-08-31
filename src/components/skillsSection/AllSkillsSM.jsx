@@ -3,63 +3,83 @@ import { fadeIn } from "../../framerMotion/variants";
 
 // Icons
 import { 
-  FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaJava, FaDocker, FaAws 
+  FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaJava, FaDocker, FaAws, FaFileExcel 
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { 
-  SiTypescript, SiRedux, SiNextdotjs, SiPrisma, SiPostgresql, SiMongodb, 
-  SiPython, SiCplusplus, SiSocketdotio, SiCloudflare, SiSelenium, SiPostman 
+  SiTypescript, SiSpringboot, SiDjango, SiFastapi, SiExpress,
+  SiAngular, SiFlutter, SiPrisma, SiPostgresql, SiMongodb, SiMysql,
+  SiPython, SiCplusplus, SiKubernetes, SiGithubactions,
+  SiPostman, SiLinux, SiGit
 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { GrHost } from "react-icons/gr";    // Hono fallback
-import { AiFillSignal } from "react-icons/ai"; // WebRTC fallback
 
 const categories = [
-  {
-    title: "Core Web",
-    items: [
-      
-      { name: "JavaScript", icon: IoLogoJavascript },
-      { name: "TypeScript", icon: SiTypescript },
-      { name: "React.js", icon: FaReact },
-      { name: "Redux", icon: SiRedux },
-      { name: "Next.js", icon: SiNextdotjs },
-      { name: "TailwindCSS", icon: RiTailwindCssFill },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Hono", icon: GrHost },
-      { name: "Socket.io", icon: SiSocketdotio },
-      { name: "WebRTC", icon: AiFillSignal },
-    ],
-  },
   {
     title: "Languages",
     items: [
       { name: "Java", icon: FaJava },
       { name: "Python", icon: SiPython },
-      { name: "C++", icon: SiCplusplus },
+      { name: "C/C++", icon: SiCplusplus },
+      { name: "JavaScript", icon: IoLogoJavascript },
+      { name: "TypeScript", icon: SiTypescript },
+      { name: "SQL", icon: SiPostgresql },
+      { name: "Shell", icon: SiLinux },
+      { name: "HTML", icon: FaHtml5 },
+      { name: "CSS", icon: FaCss3Alt },
+    ],
+  },
+  {
+    title: "Frontend",
+    items: [
+      { name: "React.js", icon: FaReact },
+      { name: "Angular", icon: SiAngular },   // ✅ fixed
+      { name: "Flutter", icon: SiFlutter },
+      { name: "TailwindCSS", icon: RiTailwindCssFill },
+    ],
+  },
+  {
+    title: "Backend & Frameworks",
+    items: [
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "Spring Boot", icon: SiSpringboot },
+      { name: "Express.js", icon: SiExpress },
+      { name: "Django", icon: SiDjango },
+      { name: "FastAPI", icon: SiFastapi },
     ],
   },
   {
     title: "Databases",
     items: [
-      { name: "Prisma", icon: SiPrisma },
+      { name: "MySQL", icon: SiMysql },
       { name: "PostgreSQL", icon: SiPostgresql },
       { name: "MongoDB", icon: SiMongodb },
+      { name: "Prisma", icon: SiPrisma },
     ],
   },
   {
-    title: "DevOps & Tools",
+    title: "Cloud & DevOps",
     items: [
-      { name: "Docker", icon: FaDocker },
       { name: "AWS", icon: FaAws },
-      { name: "Cloudflare", icon: SiCloudflare },
+      { name: "Docker", icon: FaDocker },
+      { name: "Kubernetes", icon: SiKubernetes },
+      { name: "GitHub Actions (CI/CD)", icon: SiGithubactions },
+      { name: "Linux", icon: SiLinux },
+      { name: "Git", icon: SiGit },
     ],
   },
   {
-    title: "Testing",
+    title: "Tools",
     items: [
-      { name: "Selenium", icon: SiSelenium },
       { name: "Postman", icon: SiPostman },
+      { name: "Excel", icon: FaFileExcel }, // ✅ replaced fallback
+    ],
+  },
+  {
+    title: "AI/ML Tools",
+    items: [
+      { name: "OpenAI / Gemini API", icon: SiPython }, // fallback
+      { name: "ML Libraries (NumPy, Pandas, Sklearn)", icon: SiPython },
     ],
   },
 ];

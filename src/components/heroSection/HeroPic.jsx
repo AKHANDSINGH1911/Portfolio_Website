@@ -13,7 +13,7 @@ const HeroPic = () => {
     >
  <img
   src="../../images/HexaPic.jpg"
-  alt="Aryan Shukla"
+  alt="Akhand Singh"
   className="max-h-[450px] w-auto rounded-full object-cover"
 />
 

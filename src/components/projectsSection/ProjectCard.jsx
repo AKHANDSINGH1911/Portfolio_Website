@@ -153,7 +153,7 @@ const ProjectCard = ({ project }) => {
           {/* Links */}
           <div className="flex gap-4 pt-4 border-t border-white/10">
             <motion.a 
-              href={`https://${project.links.github}`}
+              href={`${project.links.github}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 py-3 px-4 text-center font-medium rounded-xl backdrop-blur-md bg-black/40 hover:bg-black/60 border border-white/10 text-white transition-all group"
@@ -174,7 +174,7 @@ const ProjectCard = ({ project }) => {
             </motion.a>
             
             <motion.a 
-              href={`https://${project.links.demo}`}
+              href={`${project.links.demo}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 py-3 px-4 text-center font-medium rounded-xl text-white transition-all overflow-hidden relative group"
