@@ -15,7 +15,7 @@ const SubHeroMain = () => {
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
         className="font-heading tracking-wide hover:text-orange transition-colors duration-300 whitespace-nowrap"
       >
-        Hands-on experience building scalable web applications from the ground up
+         HANDS-ON EXPERIENCE BUILDING SCALABLE, AUTOMATED DEVOPS INFRASTRUCTURE
       </motion.p>
     </div>
   );

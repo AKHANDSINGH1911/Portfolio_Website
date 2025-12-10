@@ -26,10 +26,7 @@ const AboutMeText = () => {
         variants={fadeIn("up", 0.5)}
         className="max-w-2xl text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed"
       >
-        I’m <strong>Akhand Singh</strong>, an aspiring <strong>Software Engineer</strong> and 
-        <strong> Full-Stack Developer</strong> with hands-on experience in <strong>Java, Python, C/C++</strong>, 
-        scalable web applications, and <strong>cloud-native deployments</strong>. I specialize in building 
-        secure and reliable systems across backend, frontend, databases, and DevOps pipelines.
+        I’m <strong>Akhand Singh</strong>, an aspiring <strong>DevOps Engineer</strong> and <strong>Cloud Engineer</strong> with hands-on experience in <strong>CI/CD automation, containerization, cloud platforms, and infrastructure-as-code</strong>. I specialize in building <strong>scalable, secure, and reliable systems</strong> while working across backend services, cloud-native environments, and end-to-end DevOps pipelines.
       </motion.p>
 
       {/* What I Bring */}
@@ -38,47 +35,55 @@ const AboutMeText = () => {
         className="max-w-2xl space-y-4"
       >
         <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-          What I Bring to the Table:
-        </h3>
-        <ul className="space-y-3">
-          <li className="flex items-start gap-3">
-            <FiChevronRight className="mt-1 text-cyan-500" size={20} />
-            <span className="text-gray-700 dark:text-gray-300">
-              <strong>Backend Development:</strong> Built RESTful and event-driven APIs using 
-              Node.js, Spring Boot, Django & FastAPI. Experienced in authentication (JWT/OAuth), 
-              middleware, and scalable service design.
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <FiChevronRight className="mt-1 text-cyan-500" size={20} />
-            <span className="text-gray-700 dark:text-gray-300">
-              <strong>Frontend Engineering:</strong> Developed responsive UIs with React.js, AngularJS, 
-              and Flutter. Skilled in Next.js for SSR/SSG and TailwindCSS for modern styling.
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <FiChevronRight className="mt-1 text-cyan-500" size={20} />
-            <span className="text-gray-700 dark:text-gray-300">
-              <strong>Cloud & DevOps:</strong> Deployed apps on AWS (EC2, S3, RDS), containerized 
-              with Docker, orchestrated via Kubernetes, and automated CI/CD pipelines using 
-              GitHub Actions.
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <FiChevronRight className="mt-1 text-cyan-500" size={20} />
-            <span className="text-gray-700 dark:text-gray-300">
-              <strong>Databases & Data:</strong> Experienced in MySQL, PostgreSQL, MongoDB & Prisma. 
-              Built data-driven applications and optimized queries for performance and scalability.
-            </span>
-          </li>
-          <li className="flex items-start gap-3">
-            <FiChevronRight className="mt-1 text-cyan-500" size={20} />
-            <span className="text-gray-700 dark:text-gray-300">
-              <strong>AI/ML Integrations:</strong> Leveraged OpenAI/Gemini API and Python ML libraries 
-              to power intelligent features like natural-language querying and CI/CD log analysis.
-            </span>
-          </li>
-        </ul>
+  What I Bring to the Table:
+</h3>
+<ul className="space-y-3">
+  <li className="flex items-start gap-3">
+    <FiChevronRight className="mt-1 text-cyan-500" size={20} />
+    <span className="text-gray-700 dark:text-gray-300">
+      <strong>Infrastructure & Automation:</strong> Skilled in creating automated, 
+      scalable infrastructure using Terraform, Docker, and Kubernetes. Experienced 
+      in Infrastructure-as-Code (IaC) and managing cloud resources with GitOps practices.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <FiChevronRight className="mt-1 text-cyan-500" size={20} />
+    <span className="text-gray-700 dark:text-gray-300">
+      <strong>CI/CD Pipelines:</strong> Designed and automated CI/CD pipelines using 
+      GitHub Actions, Jenkins, and GitLab CI. Implemented build, test, and deployment 
+      workflows that ensure fast, reliable, and zero-downtime delivery.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <FiChevronRight className="mt-1 text-cyan-500" size={20} />
+    <span className="text-gray-700 dark:text-gray-300">
+      <strong>Cloud Engineering:</strong> Hands-on experience with AWS (EC2, S3, IAM, RDS, ECR, 
+      Lambda), container orchestration, VPC networking, load balancers, and securing 
+      cloud-native deployments.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <FiChevronRight className="mt-1 text-cyan-500" size={20} />
+    <span className="text-gray-700 dark:text-gray-300">
+      <strong>Monitoring & Reliability:</strong> Implemented observability using 
+      Prometheus, Grafana, ELK stack, CloudWatch logs, and alerting systems. Improved 
+      uptime and performance with proactive monitoring and SRE principles.
+    </span>
+  </li>
+
+  <li className="flex items-start gap-3">
+    <FiChevronRight className="mt-1 text-cyan-500" size={20} />
+    <span className="text-gray-700 dark:text-gray-300">
+      <strong>DevOps + AI Integrations:</strong> Leveraged OpenAI/Gemini APIs to 
+      automate CI/CD failure analysis, log processing, and observability insights, 
+      enabling smarter DevOps workflows.
+    </span>
+  </li>
+</ul>
+
       </motion.div>
 
       {/* Call-to-Action Button */}

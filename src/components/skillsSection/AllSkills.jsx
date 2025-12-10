@@ -34,9 +34,9 @@ const categories = [
       { name: "Python", icon: SiPython },
       { name: "C/C++", icon: SiCplusplus },
       { name: "JavaScript", icon: IoLogoJavascript },
-      { name: "TypeScript", icon: SiTypescript },
+      // { name: "TypeScript", icon: SiTypescript },
       { name: "SQL", icon: SiPostgresql },
-      { name: "Shell", icon: SiLinux },
+      // { name: "Shell", icon: SiLinux },
       { name: "HTML", icon: FaHtml5 },
       { name: "CSS", icon: FaCss3Alt },
     ],
@@ -45,8 +45,8 @@ const categories = [
     title: "Frontend",
     skills: [
       { name: "React.js", icon: FaReact },
-      { name: "Angular", icon: SiAngular },
-      { name: "Flutter", icon: SiFlutter },
+      // { name: "Angular", icon: SiAngular },
+      // { name: "Flutter", icon: SiFlutter },
       { name: "TailwindCSS", icon: RiTailwindCssFill },
     ],
   },
@@ -54,9 +54,9 @@ const categories = [
     title: "Backend & Frameworks",
     skills: [
       { name: "Node.js", icon: FaNodeJs },
-      { name: "Spring Boot", icon: SiSpringboot },
-      { name: "Express.js", icon: SiExpress },
-      { name: "Django", icon: SiDjango },
+      // { name: "Spring Boot", icon: SiSpringboot },
+      // { name: "Express.js", icon: SiExpress },
+      // { name: "Django", icon: SiDjango },
       { name: "FastAPI", icon: SiFastapi },
     ],
   },
@@ -66,7 +66,7 @@ const categories = [
       { name: "MySQL", icon: SiMysql },
       { name: "PostgreSQL", icon: SiPostgresql },
       { name: "MongoDB", icon: SiMongodb },
-      { name: "Prisma", icon: SiPrisma },
+      // { name: "Prisma", icon: SiPrisma },
     ],
   },
   {
@@ -85,13 +85,6 @@ const categories = [
     skills: [
       { name: "Postman", icon: SiPostman },
       { name: "Excel", icon: FaFileExcel }, // ✅ proper Excel icon
-    ],
-  },
-  {
-    title: "AI/ML Tools",
-    skills: [
-      { name: "OpenAI / Gemini API", icon: SiPython }, // fallback with Python
-      { name: "ML Libraries (NumPy, Pandas, Sklearn)", icon: SiPython },
     ],
   },
 ];

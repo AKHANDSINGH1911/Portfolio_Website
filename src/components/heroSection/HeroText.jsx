@@ -16,7 +16,7 @@ const HeroText = () => {
         className="relative"
       >
         <h2 className="text-lg sm:text-xl lg:text-2xl font-medium uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500 dark:from-cyan-300 dark:to-teal-400">
-          Full‑Stack Web Developer
+          DEVOPS & CLOUD ENGINEER
         </h2>
         <motion.div 
           className="absolute bottom-0 left-0 h-[2px] bg-gradient-to-r from-cyan-400 to-teal-400 rounded-full"
@@ -155,8 +155,9 @@ const HeroText = () => {
         className="relative mt-8 max-w-2xl"
       >
         <p className="text-lg sm:text-xl md:text-2xl font-light leading-relaxed text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-gray-400 dark:from-gray-400 dark:to-gray-500">
-          Building <span className="font-medium">user-friendly web apps</span> that blend{" "}
-          <span className="font-medium">creativity with performance.</span>.
+          Crafting <span className="font-medium">scalable and automated infrastructure</span> with{" "}
+<span className="font-medium">CI/CD, cloud, and monitoring</span>.
+
         </p>
         <motion.div 
           className="absolute -bottom-4 left-0 w-32 h-1 bg-gradient-to-r from-cyan-400 to-teal-400 rounded-full shadow-lg shadow-cyan-400/30"

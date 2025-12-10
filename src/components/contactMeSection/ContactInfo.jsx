@@ -8,11 +8,11 @@ import SingleContactSocial from "./SingleContactSocial";
 const ContactInfo = () => {
   const contactItems = [
     {
-      text: "]akhandsingh706@gmail.com",
+      text: "akhandsingh706@gmail.com",
       Icon: HiOutlineMail,
       gradient: "from-cyan-400 to-blue-500",
       hoverEffect: "hover:shadow-cyan-500/20 hover:scale-[1.02]",
-      link: "mailto:]akhandsingh706@gmail.com",
+      link: "mailto:akhandsingh706@gmail.com",
     },
     {
       text: "+91 9420246018",
